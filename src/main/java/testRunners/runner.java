@@ -6,8 +6,8 @@ import org.openqa.selenium.WebDriver;
 
 
 @CucumberOptions(
-        features = {"src/test/resources/Features"},
-        glue = {"StepDefinitions","Util"},
+        features = {"src/test/resources/Features/Amazon.feature"},
+        glue = {"StepDefinations","Util"},
         tags = "",
         plugin = {
                 "summary","pretty","html:Reports/CucumberReport/Reports.html"
